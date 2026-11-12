@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "aisend": {
+      "serverUrl": "https://api.aisend.app/mcp"
+    }
+  }
+}

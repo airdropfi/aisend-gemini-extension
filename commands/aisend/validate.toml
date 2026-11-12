@@ -1,0 +1,9 @@
+description = "Validate an email address before you send to it (sends nothing)"
+prompt = """
+Validate this address with AISend: {{args}}
+
+1. If the user gave no address, ask for one. Each validation counts against the account's monthly validation quota, so do not validate long lists unprompted.
+2. Call `validate_email` for the address. Nothing is sent.
+3. Report the format, MX, disposable-provider and role-address results exactly as the tool returned them, and say whether the address looks safe to send to.
+4. If the tools say sign-in is required, tell the user to run `/mcp auth aisend`.
+"""

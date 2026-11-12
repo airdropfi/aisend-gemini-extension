@@ -1,0 +1,21 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "aisend",
+  "displayName": "AISend",
+  "version": "1.0.0",
+  "description": "Send email from your own verified domain with AISend: you approve every message before it goes out, then check delivery.",
+  "logo": "assets/icon.png",
+  "suggestedPrompts": [
+    "Which sending domains are verified on my AISend account?",
+    "Show my 10 most recent emails and their delivery status",
+    "Draft a short email to me@example.com and show it to me before sending anything"
+  ],
+  "author": {
+    "name": "AISend",
+    "url": "https://aisend.app"
+  },
+  "homepage": "https://aisend.app/docs",
+  "repository": "https://github.com/airdropfi/aisend-gemini-extension",
+  "license": "MIT",
+  "keywords": ["email", "transactional-email", "smtp", "mcp", "aisend"]
+}

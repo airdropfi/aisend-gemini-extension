@@ -1,0 +1,11 @@
+{
+  "name": "aisend",
+  "version": "1.0.0",
+  "description": "Send email from your own verified domain with AISend from Gemini CLI: you approve every message before it goes out, then check delivery and validate addresses.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "aisend": {
+      "httpUrl": "https://api.aisend.app/mcp"
+    }
+  }
+}
