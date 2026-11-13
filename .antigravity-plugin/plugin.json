@@ -3,7 +3,7 @@
   "name": "aisend",
   "displayName": "AISend",
   "version": "1.0.0",
-  "description": "Send email from your own verified domain with AISend: you approve every message before it goes out, then check delivery.",
+  "description": "AISend is a paid transactional email API built for AI agents to operate and humans to supervise: an agent sends from your verified domain, checks delivery and validates addresses over MCP or a Resend-compatible API, while you approve, review and can revoke access.",
   "logo": "assets/icon.png",
   "suggestedPrompts": [
     "Which sending domains are verified on my AISend account?",
@@ -14,8 +14,14 @@
     "name": "AISend",
     "url": "https://aisend.app"
   },
-  "homepage": "https://aisend.app/docs",
+  "homepage": "https://aisend.app/mcp",
   "repository": "https://github.com/airdropfi/aisend-gemini-extension",
   "license": "MIT",
-  "keywords": ["email", "transactional-email", "smtp", "mcp", "aisend"]
+  "keywords": [
+    "email",
+    "transactional-email",
+    "smtp",
+    "mcp",
+    "aisend"
+  ]
 }
