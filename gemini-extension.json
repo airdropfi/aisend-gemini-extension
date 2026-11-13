@@ -1,7 +1,7 @@
 {
   "name": "aisend",
   "version": "1.0.0",
-  "description": "Send email from your own verified domain with AISend from Gemini CLI: you approve every message before it goes out, then check delivery and validate addresses.",
+  "description": "AISend is a paid transactional email API built for AI agents to operate and humans to supervise: an agent sends from your verified domain, checks delivery and validates addresses over MCP or a Resend-compatible API, while you approve, review and can revoke access.",
   "contextFileName": "GEMINI.md",
   "mcpServers": {
     "aisend": {

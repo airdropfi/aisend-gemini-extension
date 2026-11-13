@@ -2,7 +2,7 @@ description = "Draft an email, show it to you, and send it from your verified do
 prompt = """
 Help the user send one email with AISend. Request: {{args}}
 
-1. Call `list_domains` and pick a sender on a verified domain. If none is verified, say so: the only possible send is test mail from an address at `send.aisend.app` to the user's own AISend account email. Do not invent a sender.
+1. Call `list_domains` and pick a sender on a verified domain. If none is verified, say so: the only possible send (with an active paid plan) is from an address at `send.aisend.app` to the user's own AISend account email. Do not invent a sender.
 2. Write the message with the user. Show from, to, subject and body exactly as they would be sent, and say that sending is real and cannot be recalled.
 3. Wait for a clear yes to that exact message. If the user changes anything, show it again.
 4. Call `send_email` once, with a new unique `idempotency_key`. If it times out or errors, retry with the SAME key, not a new one.
